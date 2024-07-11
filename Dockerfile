@@ -20,7 +20,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port on which the app will run
-EXPOSE 4000
+EXPOSE 3000
 
 # Start the server using the production build
 CMD ["npm", "run", "start:dev"]
